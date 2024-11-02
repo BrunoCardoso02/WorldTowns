@@ -5,7 +5,7 @@ const server = express();
 server.use(express.json());
 
 server.get('/', (req: Request, res: Response) => {
-    res.send('Olá dev');
+  res.send('Olá dev');
 });
 
 export { server };
